@@ -26,6 +26,6 @@ spec:
         app: hello 
     spec:
       containers:
-        - name: hello
+        - name: devops
           image: sathishdevo/devops:latest
           imagePullPolicy: Always
