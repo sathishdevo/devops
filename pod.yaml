@@ -28,4 +28,4 @@ spec:
       containers:
         - name: devops
           image: sathishdevo/devops:latest
-          imagePullPolicy: Always
+          imagePullPolicy: Never
