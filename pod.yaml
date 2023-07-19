@@ -14,7 +14,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devops-pod
+  name: devops
 spec:
   replicas: 3
   selector:
@@ -26,6 +26,6 @@ spec:
         app: hello 
     spec:
       containers:
-        - name: devops-pod
+        - name: devops
           image: sathishdevo/devops:latest
           imagePullPolicy: Always
